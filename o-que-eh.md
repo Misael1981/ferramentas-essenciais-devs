@@ -192,7 +192,145 @@ Ou seja, cada commit é uma entrada no histórico que contém informações sobr
 
 Árvores, por último, representam a estrutura do diretório e arquivos em um commit específico, que tem como função registrar a organização do projeto ao longo do histórico de desenvolvimento.
 
+### Ramificações (Branches) e fusões (Merges)
 
+As **“ramificações”** ou **branches** permitem que você crie linhas separadas de desenvolvimento para trabalhar em recursos ou correções sem afetar a linha principal do projeto.
+
+Cada **branch é uma ramificação independente do código-fonte**, possibilitando que você isole e desenvolva novas funcionalidades, refatore o código ou faça correções e testes em paralelo, sem interferir no código existente na branch principal, que geralmente é nomeada como "main".
+
+Em um projeto com **branches** diferentes, a fusão, ou **merge**, permite combinar as alterações dessas **branches** de volta à linha principal, quando as alterações estão prontas.
+
+### Controle de versão distribuído
+
+Existem dois tipos de sistemas de controle de versão. Em um deles, pode haver um único servidor central que armazena o projeto com seu histórico, com o qual as pessoas desenvolvedoras precisam interagir. Isso é característico de um sistema de **Controle de Versão Centralizado**.
+
+No outro tipo, cada pessoa desenvolvedora pode manter uma cópia do projeto em sua máquina local, o que é conhecido como **Controle de Versão Distribuído**, que é o caso do Git.
+
+Com o Git, cada pessoa desenvolvedora tem uma versão completa do histórico do projeto. Isso proporciona independência e permite o desenvolvimento em paralelo.
+
+<img src="./img/git-github-04.webp">
+
+## Quais são os principais comandos do Git?
+
+O Git é uma ferramenta bastante robusta e oferece diversos utilitários para gerenciar as versões de um projeto em linha de comando. Confira os **principais comandos da ferramenta**:
+
+- **Git init**;
+- **Git clone**;
+- **Git status**;
+- **Git add**;
+- **Git commit**;
+- **Git log**;
+- **Git branch**;
+- **Git checkout**;
+- **Git diff**.
+
+### 1) Git init
+
+É utilizado para inicializar um repositório Git dentro de um diretório do sistema. Após sua utilização, a ferramenta passa a monitorar o estado dos arquivos no projeto.
+
+### 2) Git clone
+
+É utilizado para **criar uma cópia de um repositório remoto em um diretório da máquina**. Este repositório poder ser criado a partir de um repositório armazenado localmente, através do caminho absoluto ou relativo, ou pode ser remoto, através do URI na rede.
+
+A partir de um repositório clonado, é possível acompanhar o estado de um projeto e suas modificações, além de contribuir com o projeto, a partir do envio das suas modificações ao repositório central.
+
+### 3) Git status
+
+É utilizado para **verificar o status de um repositório git**, bem como o estado do repositório central. O comando mostra informações sobre se o projeto local está sincronizado com o central, quais arquivos estão sendo monitorados pelo Git e em qual branch você está no projeto.
+
+### 4) Git add
+
+É utilizado **para adicionar arquivos ao pacote de alterações a serem feitas**. É possível adicionar um único arquivo, múltiplos arquivos de uma vez, como `git add <-arquivo1-> <-arquivo2-> ...`, ou até mesmo um diretório, a partir de seu caminho. Uma vez que um arquivo é adicionado ao pacote de alterações com o comando `add`, ele está pronto para entrar no próximo `commit`.
+
+### 5) Git commit
+
+```
+git commit -m "mensagem do commit"
+```
+
+É utilizado para **criar uma nova versão do projeto a partir de um pacote de alterações**. O commit pega o pacote de modificações adicionado através do comando git `add`, fecha essas alterações num pacote e o identifica através de um Hashcode.
+
+Além disso, para cada commit é necessário escrever uma mensagem para identificá-lo, com uma mensagem clara de quais alterações foram feitas neste commit.
+
+### 6) Git log
+
+```
+git log
+```
+
+É utilizado para ver o **histórico de alterações do projeto**, onde aparecerão todos os commits feitos, com suas respectivas mensagens e códigos identificadores.
+
+O comando é muito útil quando precisamos rastrear o andamento de um projeto e verificar em qual ponto cada funcionalidade foi implementada.
+
+Além disso, o comando conta com várias opções para mostrar o histórico de forma resumida, gráfica e até mesmo mostrando a diferença entre os commits, que podem ser vistas na [documentação oficial do comando](https://git-scm.com/docs/git-log/pt_BR).
+
+### 7) Git branch
+
+É utilizado para **criar novos ramos de desenvolvimento**, bem como visualizar quais são os ramos existentes.
+
+Para criar um novo ramo, basta utilizar o comando git branch seguido do nome do novo ramo, e para visualizar quais os ramos existentes a utilização do comando é bem similar: basta não informar um nome para a nova branch, e serão listadas todas as já criadas.
+
+### 8) Git checkout
+
+É utilizado para **navegar entre as versões do projeto**, bem como entre as diferentes ramificações criadas. Para navegar entre as versões, basta usar o comando:
+
+```
+git checkout <- Hashcode do commit ->
+```
+
+E todo o estado do projeto se modificará ao estado no qual o commit foi feito.
+
+Similarmente, para navegar entre as ramificações podemos usar o comando:
+
+```
+git checkout <- nome da branch ->
+```
+
+E a branch será alterada. O comando também permite criar uma branch e imediatamente mudar para ela, através do comando:
+
+```
+git checkout -b <- nome da branch ->
+```
+
+Que vai criar a ramificação e navegar até ela.
+
+### 9) Git diff
+
+É utilizado para **visualizar modificações feitas entre commits**, sejam eles entre um commit arbitrário e o estado atual do projeto, dois commits arbitrários, ou até mesmo todas alterações entre dois commits distintos.
+
+Para visualizar as alterações entre um commit distinto e o atual, basta usar o comando:
+
+```
+git diff <- Hashcode do commit anterior ->
+```
+
+E serão listadas todas as diferenças no projeto entre os dois commits.
+
+Para conhecer mais sobre o comando git diff e seus casos de uso, além de outros comandos e utilitários do Git, confira a [documentação do Git](https://git-scm.com/docs).
+
+### 10) Git config 11) 
+
+O comando git config é usado para configurar e personalizar o ambiente Git no seu sistema. Ele permite que você defina informações como seu nome de usuário, endereço de e-mail, editor padrão e muitas outras configurações que definem como o Git interage com seus repositórios.
+
+A estrutura básica do comando é:
+
+```
+git config <opções> chave valor
+```
+
+- `<opções>`: Pode ser global (`--global`) para definir configurações para todos os repositórios no seu sistema ou local (`--local`) para definir configurações específicas para um repositório em particular.
+- `chave`: A chave de configuração que você deseja definir (por exemplo, `user.name` para o nome de usuário).
+- `valor`: O valor que você deseja atribuir à chave (por exemplo, seu nome de usuário ou endereço de e-mail).
+
+Por exemplo, para configurar seu nome de usuário globalmente, você pode usar o comando:
+
+```
+git config --global user.name "Seu Nome"
+```
+
+Isso é útil para garantir que todos os commits que você fizer em qualquer repositório Git no seu sistema tenham o seu nome associado a eles.
+
+Além disso, o comando `git config` pode ser usado para personalizar muitos outros aspectos do seu ambiente Git, tornando-o mais adaptado às suas preferências e necessidades.
 
 
 
