@@ -10,7 +10,9 @@
 
 ## 📚 Temas abordados
 
-- ### [O que é Git e Github: os primeiros passos nessas ferramentas](./o-que-eh.md)
+- ### [Artigo - O que é Git e Github: os primeiros passos nessas ferramentas](./o-que-eh.md)
+
+- ### [Curso - Git e GitHub compartilhando e colaborando em projetos](./Git-GitHubCompartilhandoColaborandoEmProjetos/menu.md)
 
 
 <h2> 📞 Contato</h2>
