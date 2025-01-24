@@ -10,6 +10,12 @@
 
 - ### [git init](./Material-Estudo/git-init.md)
 
+- ### [Chave SSH](./Material-Estudo/chave-ssh.md)
+
+- ### [O comando git remote](./Material-Estudo/git-remote.md)
+
+- ### [Autenticação por token no Github](./Material-Estudo/autentificacaoPorToken.md)
+
 
 
 
