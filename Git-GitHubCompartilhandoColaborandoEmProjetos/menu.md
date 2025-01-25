@@ -16,6 +16,23 @@
 
 - ### [Autenticação por token no Github](./Material-Estudo/autentificacaoPorToken.md)
 
+- ### [Mensagens de commits](./Material-Estudo/mensagensDeCommits.md)
+
+- ### [Sinalizações em Arquivos do VSCode](./Material-Estudo/sinalizacaoEmArquivosVscode.md)
+
+- ### [Quando realizar um commit?](./Material-Estudo/quandoRealizarCommits.md)
+
+- ### [Como o Git controla as mudanças?](./Material-Estudo/comoGitControlaMudancas.md)
+
+- ### [Adicionando Colaboradores no commit](./Material-Estudo/adicionandoColaboradores.md)
+
+- ### [Outras Formas de Colaborar](./Material-Estudo/outrasFormasDeColaborar.md)
+
+
+## Material Complementar 
+
+- ### [Clonando Repositórios no GitHub](./Material-Estudo/clonando-repositorios.md)
+
 
 
 
