@@ -28,10 +28,16 @@
 
 - ### [Outras Formas de Colaborar](./Material-Estudo/outrasFormasDeColaborar.md)
 
+- ### [Git no VSCode](./Material-Estudo/gitNoVscode.md)
+
 
 ## Material Complementar 
 
 - ### [Clonando Repositórios no GitHub](./Material-Estudo/clonando-repositorios.md)
+
+- ### [Git Pull](./Material-Estudo/gitPull.md)
+
+- ### [Resolvendo conflitos com Visual Studio Code Merge Editor](./Material-Estudo/resolvendoConflitosComVscodeMergeEditor.md)
 
 
 
