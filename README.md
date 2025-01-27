@@ -4,8 +4,10 @@
 
 ## 🚀 Tecnologias
 
- <img  alt="Misael-Js" height="60" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg">
-<img height="60" width="50" src="./img/github-original.svg" style="filter: invert(1) sepia(0) saturate(0);">
+ <div>
+   <img  alt="Misael-Js" height="60" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg">
+   <img height="60" width="50" src="./img/github-original.svg" style="filter: invert(1) sepia(0) saturate(0);">
+ </div>
 
 
 ## 📚 Temas abordados

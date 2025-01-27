@@ -30,6 +30,10 @@
 
 - ### [Git no VSCode](./Material-Estudo/gitNoVscode.md)
 
+- ### [Desfazendo um commit](./Material-Estudo/desfazendoUmCommit.md)
+
+- ### [Tutorial sobre o .gitignore](./Material-Estudo/tutorial_gitinore.md)
+
 
 ## Material Complementar 
 

@@ -24,5 +24,22 @@ Clicaremos no botão **"Stage Changes"** nos  arquivos. Agora a lista **"Changes
 
 Antes de fazer é necessário digitar a mensagem que descreve o **commit**.
 
+<img src="../../img/gitNoVscode-03.PNG">
+
+Então, podemos realizar o commit.
+
+A princípio, ele realizou o commit e o botão azul mudou o texto para "Sync Changes 1" (Sincronizar Mudanças 1), ou seja, se tornou um botão de sincronização. Ele detectou que há um commit no meu repositório local, mas que ele ainda não foi enviado para o GitHub.
+
+Então, é exibido esse botão para sincronizar as mudanças com o repositório remoto. Ao clicarmos no botão "Sync Changes 1", os dados devem ser enviados para o GitHub. Para isso, apareceu um alerta no centro da tela com uma mensagem informando que essa ação sincroniza com o "origin/main".
+
+<img src="../../img/gitNoVscode-04.PNG">
+
+Isso significa que ele enviará para o seu repositório remoto o que está na branch main. Esse alerta aparece em uma janela onde na parte inferior tem três botões:
+
+- **Ok**: para confirmar;
+- **Ok, Don't Show Again" (Ok, Não mostre de novo)**: para confirmar a ação e não mostrar esse pop-up todas as vezes que fizermos um commit;
+- **Cancel (Cancelar)**: para cancelar o commit caso tenhamos clicado por engano.
+
+Clicaremos no segundo botão, para confirmarmos o commit e essa mensagem não aparecer novamente. Após clicarmos, ele irá sincronizar as mudanças, o que pode demorar um pouco. Após concluir, o botão da aba do Git fica desativado e volta ao texto "Commit".
 
 ### [Voltar ao menu - Git e GitHub compartilhando e colaborando em projetos](../menu.md)
