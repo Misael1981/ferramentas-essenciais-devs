@@ -16,6 +16,8 @@
 
 - ### [Curso - Git e GitHub compartilhando e colaborando em projetos](./Git-GitHubCompartilhandoColaborandoEmProjetos/menu.md)
 
+- ### [Curso - Git e GitHub: dominando controle de versão de código](./Git-GitHub_DominandoControleDeVersoes/menu.md)
+
 
 <h2> 📞 Contato</h2>
 <div> 
