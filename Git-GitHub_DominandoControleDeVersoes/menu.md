@@ -24,6 +24,12 @@
 
 - ### [Viajando no tempo](./Material-Estudo/viajandoNoTempo.md)
 
+- ### [Criando uma versão](./Material-Estudo/criandoVersao.md)
+
+- ### [Detalhes da versão](./Material-Estudo/detalhesDaVersao.md)
+
+- ### [Gerando uma Release](./Material-Estudo/gerandoUmaRelease.md)
+
 ## Dicionarios Git
 
 - ### [Dicionário Git](./Material-Estudo/dicionarioGit.md)
