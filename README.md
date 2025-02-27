@@ -18,6 +18,10 @@
 
 - ### [Curso - Git e GitHub: dominando controle de versão de código](./Git-GitHub_DominandoControleDeVersoes/menu.md)
 
+- ### [Curso - Terminal: aprenda comandos para executar tarefas](./Terminal-comandosParaExecutarTarefas/menu.md)
+
+- ### [Curso - Windows Prompt: utilizando o CMD](./WindowsPrompt-utilizandoCMD/menu.md)
+
 
 <h2> 📞 Contato</h2>
 <div> 
