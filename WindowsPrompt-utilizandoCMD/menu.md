@@ -10,6 +10,14 @@
 
 - ### [Outros Comandos Interessantes do Windows](./Material-Estudo/outrosComandos.md)
 
+- ### [Tratamento de erros](./Material-Estudo/tratandoErros.md)
+
+- ### [Variáveis de Ambiente](./Material-Estudo/variaveis-ambiente.md)
+
+- ### [Varáveis no Ambiente CMD](./Material-Estudo/variaveisNoCMD.md)
+
+- ### [Diferença entre SET e SETX](./Material-Estudo/diferenca-set-setx.md)
+
 
 
 
