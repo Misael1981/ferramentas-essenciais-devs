@@ -18,9 +18,12 @@
 
 - ### [Diferença entre SET e SETX](./Material-Estudo/diferenca-set-setx.md)
 
+- ### [CLI (Comand line interface)](./Material-Estudo/cli.md)
 
+- ### [Gerenciadores de Pacotes](./Material-Estudo/gerenciadoresDePacotes.md)
 
+- ### [Outras Funcionalidades de um Gerenciador de Pacotes](./Material-Estudo/funcionalidadesDeUmGerenciadorDePacotes.md)
 
-
+- ### [O Comando choco list](./Material-Estudo/chocolatey.md)
 
 ### [Voltar ao README PRINCIPAL](../README.md)
