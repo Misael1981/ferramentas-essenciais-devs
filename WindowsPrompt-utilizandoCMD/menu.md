@@ -26,4 +26,8 @@
 
 - ### [O Comando choco list](./Material-Estudo/chocolatey.md)
 
+- ### [CMDER e Wndows Terminal](./Material-Estudo/cmder__windows-terminal.md)
+
+- ### [Alternativas de Customização do Terminal (Dracula)](./Material-Estudo/customizarTerminal.md)
+
 ### [Voltar ao README PRINCIPAL](../README.md)
